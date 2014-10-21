@@ -10,9 +10,9 @@ Link to Hackathon: http://www.thenext36.ca/news/they-came-they-hacked-they-conqu
 
 High level description of each file:
 
-*AC.lua: Lua script that takes input from the Myo armband and outputs the resulting gesture as a simulated keystroke. The                 'keystroke' serves as input to PC_keypress_Serial_COM.
+* AC.lua: Lua script that takes input from the Myo armband and outputs the resulting gesture as a simulated keystroke. The                 'keystroke' serves as input to PC_keypress_Serial_COM.
 
-*PC_keypress__Serial_COM.pde: Processing script that waits for a keystroke and relays the signal to the MeU LED panel via a USB 
+* PC_keypress__Serial_COM.pde: Processing script that waits for a keystroke and relays the signal to the MeU LED panel via a USB 
                               cable.
 
-*MeU Serial COM.ino: Arduino script that is loaded onto the MeU device. This script recognizes input from the processing script   and displays a preprogrammed image on the LED array. 
+* MeU Serial COM.ino: Arduino script that is loaded onto the MeU device. This script recognizes input from the processing script   and displays a preprogrammed image on the LED array. 
